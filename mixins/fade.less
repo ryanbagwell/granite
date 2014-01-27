@@ -1,0 +1,12 @@
+.fade-to(@time:.3s, @opacity:70) {
+    .opacity(@opacity);
+    .transition(opacity @time ease-in-out);
+}
+
+.fade-in(@time:.3s) {
+    .fade-to(@time; @opacity:100);
+}
+
+.fade-out(@time:.3s) {
+    .fade-to(@time; @opacity:0);
+}
