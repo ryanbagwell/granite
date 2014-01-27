@@ -2,6 +2,12 @@
 
 A CSS3/Less extension library for [Bedrock](https://github.com/hzdg/bedrock)
 
+## Installation
+
+Install with Bower
+
+    bower install git@github.com:ryanbagwell/granite.git
+
 ## Available Mixins
 
 ### Fade

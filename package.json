@@ -1,0 +1,28 @@
+{
+  "name": "granite",
+  "version": "0.0.0",
+  "description": "A CSS3/Less extension library for Bedrock",
+  "homepage": "https://github.com/ryanbagwell/granite",
+  "bugs": "https://github.com/ryanbagwell/granite/issues",
+  "author": {
+    "name": "Ryan Bagwell",
+    "email": "ryan@ryanbagwell.com",
+    "url": "https://github.com/ryanbagwell"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ryanbagwell/granite.git"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0",
+    "grunt": "~0.4.1",
+    "grunt-bump": "0.0.11",
+    "grunt-cli": "latest",
+    "bower": "latest"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ]
+}
