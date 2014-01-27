@@ -1,0 +1,10 @@
+{
+  "name": "granite",
+  "version": "0.0.1",
+  "main": "granite.css",
+  "dependencies": {
+    "bedrock":"1.7.0"
+  },
+  "devDependencies": {
+  }
+}
