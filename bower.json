@@ -1,7 +1,7 @@
 {
   "name": "granite",
-  "version": "0.0.0",
-  "description": "A CSS3/Less extension library for Bedrock",
+  "version": "1.0",
+  "description": "A CSS3/less extension library for Bedrock",
   "main": "granite.less",
   "author": {
     "name": "Ryan Bagwell",
