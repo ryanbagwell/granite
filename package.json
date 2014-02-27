@@ -16,7 +16,7 @@
   "devDependencies": {
     "mocha": "~1.14.0",
     "grunt": "~0.4.1",
-    "grunt-bump": "0.0.11",
+    "grunt-bump": "0.0.13",
     "grunt-cli": "latest",
     "bower": "latest"
   },
