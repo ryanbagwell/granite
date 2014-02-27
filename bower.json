@@ -1,6 +1,6 @@
 {
   "name": "granite",
-  "version": "1.0",
+  "version": "1.0.2",
   "description": "A CSS3/less extension library for Bedrock",
   "main": "granite.less",
   "author": {
@@ -9,6 +9,15 @@
     "url": "https://github.com/ryanbagwell"
   },
   "dependencies": {
-    "bedrock":"1.7.0"
-  }
+    "bedrock": "1.7.0"
+  },
+  "homepage": "https://github.com/ryanbagwell/granite",
+  "authors": [
+    "Ryan Bagwell <ryan@ryanbagwell.com>"
+  ],
+  "keywords": [
+    "less",
+    "css"
+  ],
+  "license": "MIT"
 }
