@@ -23,3 +23,13 @@ Gradually increase the element's opacity to 100%.
 ####.fade-out(@time:.3s)
 
 Gradually decrease the element's opacity to 0.
+
+### Colors
+
+####.color(@color, @time; @easing;);
+
+Transition to the specified color
+
+####.border-color(@border; @time; @easing;)
+
+
