@@ -1,9 +1,14 @@
-.color(@color; @time:.3s; @easing:ease-in-out;) {
+.color-transition(@color; @time:.3s; @easing:ease-in-out;) {
     color: @color;
     .transition(color @time ease-in-out);
 }
 
-.border-color(@border; @time:.3s; @easing:ease-in-out;) {
+.border-color-transition(@border; @time:.3s; @easing:ease-in-out;) {
     border: @border;
     .transition(border @time ease-in-out);
+}
+
+.background-color-transition(@color; @time: .3s; @easing:ease-in-out;) {
+    background-color: @color;
+    .transition(background-color @time @easing);
 }

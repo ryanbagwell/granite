@@ -26,10 +26,20 @@ Gradually decrease the element's opacity to 0.
 
 ### Colors
 
-####.color(@color, @time; @easing;);
+####.color-transition(@color, @time; @easing;);
 
 Transition to the specified color
 
-####.border-color(@border; @time; @easing;)
+####.border-color-transition(@border; @time; @easing;)
+
+Transition the border color to the specified color.
+
+####.background-color-transition(@color; @time; @easing;)
+
+Transition the background color to the specified color.
+
+
+
+
 
 
