@@ -12,3 +12,8 @@
     background-color: @color;
     .transition(background-color @time @easing);
 }
+
+.fill-color-transition(@color; @time: .3s; @easing:ease-in-out;) {
+    fill: @color;
+    .transition(fill @time @easing);
+}

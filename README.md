@@ -38,6 +38,10 @@ Transition the border color to the specified color.
 
 Transition the background color to the specified color.
 
+####.fill-color-transition(@color; @time; @easing;)
+
+Transition the svg fill color property.
+
 
 
 
