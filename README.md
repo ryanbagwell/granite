@@ -42,8 +42,20 @@ Transition the background color to the specified color.
 
 Transition the svg fill color property.
 
+### Triangles
 
+####.triangle-up(@width; @height; @color;)
 
+Creates an up-pointing triangle.
 
+####.triangle-down(@width; @height; @color;)
 
+Creates a down-pointing triangle.
 
+####.triangle-right(@width; @height; @color;)
+
+Creates a right-pointing triangle.
+
+####.triangle-left(@width; @height; @color;)
+
+Creates a left-pointing triangle.
