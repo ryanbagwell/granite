@@ -12,28 +12,28 @@
 
 .triangle-up(@width; @height; @color;) {
     .triangle;
-    border-left: @width/2 solid transparent;
-    border-right: @width/ solid transparent;
+    border-left: round(@width/2) solid transparent;
+    border-right: round(@width/2) solid transparent;
     border-bottom: @height solid @color;
 }
 
 .triangle-down(@width; @height; @color;) {
     .triangle;
-    border-left: @width/2 solid transparent;
-    border-right: @width/2 solid transparent;
+    border-left: round(@width/2) solid transparent;
+    border-right: round(@width/2) solid transparent;
     border-top: @height solid @color;
 }
 
 .triangle-right(@width; @height; @color;) {
     .triangle;
-    border-top: @height/2 solid transparent;
-    border-bottom: @height/2 solid transparent;
+    border-top: round(@height/2) solid transparent;
+    border-bottom: round(@height/2) solid transparent;
     border-left: @width solid @color;
 }
 
 .triangle-left(@width; @height; @color;) {
     .triangle;
-    border-top: @height/2 solid transparent;
-    border-bottom: @height/2 solid transparent;
+    border-top: round(@height/2) solid transparent;
+    border-bottom: round(@height/2) solid transparent;
     border-right: @width solid @color;
 }
