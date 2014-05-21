@@ -7,9 +7,9 @@ module.exports = (grunt) ->
     pkg: grunt.file.readJSON 'package.json'
 
     bump:
-        files: ['package.json', 'bower.json']
-        options:
-            pushTo: 'origin master'
+      options:
+        files: ['*.json']
+        pushTo: 'origin master'
 
   # Load grunt plugins
   grunt.loadNpmTasks 'grunt-bump'
