@@ -1,6 +1,6 @@
 {
   "name": "granite",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "A CSS3/Less extension library for Bedrock",
   "homepage": "https://github.com/ryanbagwell/granite",
   "bugs": "https://github.com/ryanbagwell/granite/issues",
@@ -16,7 +16,7 @@
   "devDependencies": {
     "mocha": "~1.14.0",
     "grunt": "~0.4.1",
-    "grunt-bump": "0.0.13",
+    "grunt-bump": "0.0.14",
     "grunt-cli": "latest",
     "bower": "latest"
   },
