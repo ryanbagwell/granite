@@ -59,3 +59,15 @@ Creates a right-pointing triangle.
 ####.triangle-left(@width; @height; @color;)
 
 Creates a left-pointing triangle.
+
+### Animation
+
+#### .animation(@animation, @duration, @count: 1, @timing: linear)
+
+A shortcut mixin for defining animation properties.
+
+### Spin
+
+#### .spin(@duration: .4s)
+
+Continuously rotates the targeted element.
