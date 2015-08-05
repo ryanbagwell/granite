@@ -8,7 +8,7 @@ module.exports = (grunt) ->
 
     bump:
       options:
-        files: ['*.json']
+        filepaths: ['bower.json', 'package.json']
         pushTo: 'origin master'
         commit: true
 
