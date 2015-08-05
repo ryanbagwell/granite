@@ -14,7 +14,7 @@
     "url": "git@github.com:ryanbagwell/granite.git"
   },
   "dependencies": {
-    "bedrock":"git@github.com:hzdg/bedrock.git#18ec65a7d8a17325719df89d60c0cdc383255d9f"
+    "bedrock":"git://github.com/hzdg/bedrock.git#18ec65a7d8a17325719df89d60c0cdc383255d9f"
   },
   "devDependencies": {
     "mocha": "~1.14.0",
