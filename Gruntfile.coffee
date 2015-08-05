@@ -10,6 +10,7 @@ module.exports = (grunt) ->
       options:
         files: ['*.json']
         pushTo: 'origin master'
+        commit: true
 
   # Load grunt plugins
   grunt.loadNpmTasks 'grunt-bump'
